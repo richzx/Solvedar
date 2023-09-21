@@ -1,6 +1,6 @@
 RewriteEngine on
 RewriteBase /
-RewriteRule ^/tecnologia/razones-programar-2023 /tecnologia/razones-programar-2023.html [NC]
+RewriteRule ^https://solvedar.vercel.app/tecnologia/razones-programar-2023 https://solvedar.vercel.app/tecnologia/razones-programar-2023.html [NC]
 RewriteRule ^/tecnologia/IA-sobresaliente-en-salud /tecnologia/IA-sobresaliente-en-salud.html [NC]
 RewriteRule ^/bienestar/sembrar-plantas-espacios-pequeños /bienestar/sembrar-plantas-espacios-pequeños.html [NC]
 RewriteRule ^/tecnologia/IA-en-la-medicina-actual /tecnologia/IA-en-la-medicina-actual.html [NC]
