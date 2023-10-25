@@ -122,7 +122,16 @@
   /*HOME*/
   .home{
     width: 100%;
-    min-height: 350px;
+    min-height: 300px;
+    background-image: var(--container-color2);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-index{
+    width: 100%;
+    min-height: 200px;
     background-image: var(--container-color2);
     display: grid;
     justify-content: center;
@@ -136,6 +145,10 @@
 
   .home-title{
     font-size: 3.5rem;
+  }
+
+  .home-title-article{
+    font-size: 2rem;
   }
 
   .home-subtitle{
