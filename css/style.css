@@ -160,7 +160,7 @@
 
   .home-index{
     width: 100%;
-    min-height: 200px;
+    min-height: 250px;
     background-image: var(--container-color2);
     display: grid;
     justify-content: center;
