@@ -62,6 +62,34 @@
     text-decoration: underline;
   }
 
+  .articles{
+    font-size: 1.08rem;
+    font-weight: 500;
+    color: var(--bg-color);
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+
+  .articles-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & .articles-text{
+      color: var(--second-color-links);
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 5px 20px;
+      border-radius: 10px;
+      border: 2px solid var(--second-color-links);
+      transition: .3s ease;
+      &:hover{
+        color: var(--bg-color);
+        background: var(--second-color-links);
+      }
+    }
+  }
+
   /*HEader*/
 
   header{
@@ -78,7 +106,8 @@
     transition: 0.5s;
   }
 
-  header.shadow .logo{
+  header.shadow .logo,
+  header.shadow .articles{
     font-weight: 500;
     color: var(--text-color);
   }
