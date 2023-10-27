@@ -503,6 +503,29 @@
   }
   /* FIN DE COOKIES */
 
+  /* MAIN INDEX */
+  .main-quienes{
+    margin-top: 3rem;
+  }
+
+  .quienes-title{
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  .quienes-subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .items-ul{
+    & li{
+      list-style: circle;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+  }
+
   /* RESPONSIVO */
   @media (max-width: 1060px) {
     .container{
