@@ -90,8 +90,7 @@
     }
   }
 
-  /*HEader*/
-
+  /*Header*/
   header{
     position: fixed;
     top: 0;
@@ -184,7 +183,6 @@
     font-size: 1rem;
     font-weight: 400;
   }
-
 
   .post-filter{
     display: flex;

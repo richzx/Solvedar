@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+  *{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    box-sizing: border-box;
+  }
+
+  :root{
+    --container-color: #1a1e21;
+    --container-color2: linear-gradient(to right top, #2c2c2c, #2d2d2d, #2d2d2d, #2e2e2e, #2f2f2f, #2f3030, #2f3030, #303130, #303131, #313232, #313232, #323232);
+    --second-color-links: #dba212;
+    --second-color: #efb011;
+    --text-color: #172317;
+    --bg-color: #fff;
+  }
+
+  ::-webkit-scrollbar{
+    border-radius: 3rem;
+    width: 0.5rem;
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background: var(--container-color2);
+    border-radius: 3rem;
+  }
+  
+  ::selection{
+    color: var(--bg-color);
+    background-color: var(--second-color);
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  li{
+    list-style: none;
+    margin-left: 1rem;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  section{
+    padding: 3rem 0 2rem;
+  }
+  
+  .container{
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+  }
+
+  /*Header*/
+  header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+  }
+
+  header.shadow{
+    background: var(--bg-color);
+    box-shadow: 0 1px 4px hsl(0 4% 14% / 10%);
+    transition: 0.5s;
+  }
+
+  header.shadow .logo,
+  header.shadow .articles{
+    font-weight: 500;
+    color: var(--text-color);
+  }
+
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+  }
+
+  .logo{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--bg-color);
+  }
+
+  .logo span{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--second-color);
+  }
+
+  .home-index{
+    width: 100%;
+    height: 100vh;
+    background-image: var(--container-color2);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-text{
+    color: var(--bg-color);
+    text-align: center;
+  }
+
+  .home-title{
+    font-size: 3.5rem;
+  }
+
+  .home-subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+   /* Pie de pagina */
+   .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+  }
+
+  .footer p{
+    font-size: 0.938rem;
+    width: 400px;
+  }
+
+  .text-somos{
+    color: var(--text-color);
+  }
+
+  .text-somos:hover{
+    color: #007bc2;
+    text-decoration: underline;
+  }
